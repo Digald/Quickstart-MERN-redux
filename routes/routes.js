@@ -6,7 +6,7 @@ const getDataController = require("../controllers/getDataController.js");
 // API GET routes
 router.get("/finddata", getDataController.getData);
 
-// User POST routes
+// API POST routes
 // router.post("/submit", submitController.addData);
 
 module.exports = router;

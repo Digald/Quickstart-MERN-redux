@@ -3,9 +3,7 @@ import "./LandingPage.css";
 import Booklist from "../../Components/Booklist/Booklist";
 
 /*
-Landing page is going to be the front of my application. The page will consist of the 
-basic UI of the nintendo switch and will handle all the sites navigation through the boxes displayed 
-in the middle of the screen.
+Landing Page of application
 */
 
 class LandingPage extends Component {
