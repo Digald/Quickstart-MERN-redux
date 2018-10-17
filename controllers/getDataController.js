@@ -1,7 +1,8 @@
 const db = require("../models");
 
 exports.getData = async (req, res) => {
+  const books = await db.Book.find();
   res.json({
-    message: "Welcome to the data"
+    books
   });
 };

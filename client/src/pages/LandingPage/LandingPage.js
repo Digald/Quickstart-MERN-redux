@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./LandingPage.css";
-// import TitleLogo from "../../Components/TitleLogo/TitleLogo";
+import Booklist from "../../Components/Booklist/Booklist";
 
 /*
 Landing page is going to be the front of my application. The page will consist of the 
@@ -16,7 +16,8 @@ class LandingPage extends Component {
   render() {
     return (
       <div className="LandingPage">
-        <h1>Hello World!</h1>
+        <h1>My App</h1>
+        <Booklist />
       </div>
     );
   }
